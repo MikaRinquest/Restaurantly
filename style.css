@@ -1,0 +1,29 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+#navbar {
+  height: 65px;
+}
+
+/* Content */
+
+#content {
+  margin-top: 65px;
+}
+
+/* Home */
+
+/* About */
+
+/* Menu */
+
+.menu-list {
+  list-style-type: none;
+}
