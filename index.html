@@ -23,16 +23,18 @@
   </head>
   <body style="overflow-x: hidden">
     <!-- Navbar -->
+
     <nav
-      class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
+      class="navbar d-flex flex-column fixed-top navbar-expand-lg navbar-light bg-light opacity-75"
       id="navbar"
     >
       <div>
-        <div>
+        <div class="d-flex justify-content-start align-items-start">
           <i class="fa-thin fa-mobile-button">+27 29 457 3980</i>
           <i class="fa-regular fa-clock">Mon-Sat: 11AM-23PM</i>
         </div>
       </div>
+
       <div class="container-fluid">
         <a class="navbar-brand" href="#home">Restaurantly</a>
         <button
@@ -62,9 +64,15 @@
             <li class="nav-item">
               <a class="nav-link" href="#specials">Specials</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
-            <li class="nav-item"><a class="nav-link" href="#chefs">Chefs</a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chefs">Chefs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -93,7 +101,8 @@
                 <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -101,12 +110,12 @@
     </nav>
 
     <!-- Content -->
-    
+    <main id="content">
       <section class="min-vh-100 min-vw-100 bg-dark text-light" id="home">
         <div class="container-fluid"></div>
       </section>
 
-      <section class="min-vh-100 min-vw-100 bg-light text-dark pt-5" id="about">
+      <section class="min-vh-100 min-vw-100 bg-light text-dark" id="about">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
@@ -152,23 +161,45 @@
               />
             </div>
           </div>
-
-          <div>
-            <h6>WHY US</h6>
-            <h3>Why Choose Our Restaurant</h3>
-            <div class="d-flex">
-              <div class="col-md-4">1</div>
-              <div class="col-md-4">2</div>
-              <div class="col-md-4">3</div>
+        </div>
+      </section>
+      <section class="" id="why-us">
+        <div class="container-fluid">
+          <h2>WHY US</h2>
+          <p>Why Choose Our Restaurant</p>
+          <div class="row justify-content-evenly align-items-center m-3">
+            <div class="col-md-3 border border-3 p-3">
+              <h4>1</h4>
+              <h5>Lorem.</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                adipisci alias provident aspernatur molestiae aperiam.
+              </p>
+            </div>
+            <div class="col-md-3 border border-3 p-3 m-1">
+              <h4>2</h4>
+              <h5>Lorem.</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                adipisci alias provident aspernatur molestiae aperiam.
+              </p>
+            </div>
+            <div class="col-md-3 border border-3 p-3 m-1">
+              <h4>3</h4>
+              <h5>Lorem.</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                adipisci alias provident aspernatur molestiae aperiam.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="min-vh-100 min-vw-100 bg-dark text-light pt-5" id="menu">
+      <section class="min-vh-100 min-vw-100 bg-dark text-light" id="menu">
         <div class="container-fluid">
-          <h6>MENU</h6>
-          <h3>Check Our Tasty Menu</h3>
+          <h2>MENU</h2>
+          <p>Check Our Tasty Menu</p>
           <div class="">
             <ul class="menu-list d-flex justify-content-center">
               <li class="me-4 ps-3 pe-3 border rounded-pill">All</li>
@@ -177,104 +208,55 @@
               <li class="me-4 ps-3 pe-3 border rounded-pill">Specialty</li>
             </ul>
           </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/beef-g910331bc5_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/goulash-gb32496cf5_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/lobster-g3cd61f074_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/meal-g3764fc8bd_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/pasta-g2a9f2188a_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/pizza-ga26513d9a_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/salad-ge296f8cdc_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/cake-gaa1106464_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
-          </div>
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="./images/cheesecake-g27d10fa33_640.jpg"
-              alt=""
-            />
-            <h6></h6>
-            <p></p>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Steak</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Soup</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Lobster Bisque</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Lasagna</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Pasta</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Pizza</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Caesar Salad</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Chocolate Mousse Cake</h4>
+              <p></p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>Cheesecake</h4>
+              <p></p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section
-        class="min-vh-100 min-vw-100 bg-light text-dark pt-5"
-        id="specials"
-      >
+      <section class="min-vh-100 min-vw-100 bg-light text-dark" id="specials">
         <div class="container-fluid">
-          <h6>SPECIALS</h6>
-          <h3>Check Our Specials</h3>
+          <h2>SPECIALS</h2>
+          <p>Check Our Specials</p>
         </div>
       </section>
 
-      <section
-        class="min-vh-100 min-vw-100 bg-dark text-light pt-5"
-        id="events"
-      >
+      <section class="min-vh-100 min-vw-100 bg-dark text-light" id="events">
         <div class="container-fluid">
           <div
             id="carouselExampleIndicators"
@@ -331,8 +313,8 @@
             </div>
           </div>
           <div>
-            <h6>RESERVATION</h6>
-            <h3>Book a Table</h3>
+            <h2>RESERVATION</h2>
+            <p>Book a Table</p>
             <form>
               <div class="col-md-4 mb-3">
                 <label for="exampleInputEmail1" class="form-label"
@@ -379,89 +361,129 @@
       </section>
 
       <section
-        class="min-vh-100 min-vw-100 bg-light text-dark pt-5"
+        class="min-vh-100 min-vw-100 bg-light text-dark"
         id="testimonials"
       >
         <div class="container-fluid">
-          <h6>TESTIMONIALS</h6>
-          <h3>What they're saying about us</h3>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <h2>TESTIMONIALS</h2>
+          <p>What they're saying about us</p>
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
             <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block " alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block " alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block " alt="...">
-    </div>
-  </div>
-</div>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block" alt="..." />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="min-vh-100 min-vw-100 bg-dark text-light pt-5" id="chefs">
+      <section class="min-vh-100 min-vw-100 bg-dark text-light" id="chefs">
         <div class="container-fluid">
-          <div id="chef" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-    <button type="button" data-bs-target="#chef" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#chef" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#chef" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/chef-g3ddcd75b0_640.jpg" class="d-block " alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/chef-g4193ba492_640.jpg" class="d-block " alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/chef-gf49ae9707_640.jpg" class="d-block " alt="...">
-    </div>
-  </div>
-</div>
+          <div class="row">
+            <div class="col-md-3">
+              <img src="./images/chef-g3ddcd75b0_640.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="./images/chef-g4193ba492_640.jpg" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="./images/chef-gf49ae9707_640.jpg" alt="" />
+            </div>
+          </div>
         </div>
       </section>
 
-      <section
-        class="min-vh-100 min-vw-100 bg-light text-dark pt-5"
-        id="gallery"
-      >
+      <section class="min-vh-100 min-vw-100 bg-light text-dark" id="gallery">
         <div class="container-fluid"></div>
       </section>
 
-      <section
-        class="min-vh-100 min-vw-100 bg-dark text-light pt-5"
-        id="contact"
-      >
+      <section class="min-vh-100 min-vw-100 bg-dark text-light" id="contact">
         <div class="container-fluid">
-          <div> <h6>CONTACT</h6>
-            <h3>Contact Us</h3></div>
+          <div>
+            <h2>CONTACT</h2>
+            <p>Contact Us</p>
+          </div>
           <div class="">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.293421526152!2d18.490473615213283!3d-33.984996280624316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bfcf832a1%3A0x3b4439b8cc517802!2s314%20Imam%20Haron%20Rd%2C%20Lansdowne%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1651741201142!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.293421526152!2d18.490473615213283!3d-33.984996280624316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bfcf832a1%3A0x3b4439b8cc517802!2s314%20Imam%20Haron%20Rd%2C%20Lansdowne%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1651741201142!5m2!1sen!2sza"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
           <div>
             <form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
       </section>

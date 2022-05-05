@@ -9,23 +9,37 @@
 /* Navbar */
 
 #navbar {
-  height: 65px;
+  height: 70px;
 }
 
 /* Content */
 
-#content {
-  margin-top: 65px;
+section {
+  padding-top: 100px;
 }
 
 /* Home */
 
 /* About */
 
+#why-us {
+  padding-bottom: 65px;
+}
 /* Menu */
+
+.row {
+  padding-top: 65px;
+  padding-left: 100px;
+}
 
 .menu-list {
   list-style-type: none;
+}
+
+.menu-item {
+  width: 60px;
+  aspect-ratio: 1;
+  color: grey;
 }
 
 /* Specials */
